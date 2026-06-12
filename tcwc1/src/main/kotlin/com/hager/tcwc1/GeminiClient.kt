@@ -11,6 +11,6 @@ class GeminiClient {
     fun getJoke(): String {
 
 
-        return "Why do programmers love coffee? Because it helps them debug."
+        return "مرة عمارتين قابلو موزة قالولها مين الي بنانا"
     }
 }
