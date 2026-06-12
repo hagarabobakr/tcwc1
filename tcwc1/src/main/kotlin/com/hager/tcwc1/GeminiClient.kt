@@ -8,7 +8,7 @@ class GeminiClient {
 
     private val restTemplate = RestTemplate()
 
-    fun getJoke(): String {
+    fun getJoke(word: String): String {
 
 
         return "مرة عمارتين قابلو موزة قالولها مين الي بنانا"
