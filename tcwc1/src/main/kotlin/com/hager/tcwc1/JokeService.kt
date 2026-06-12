@@ -8,7 +8,7 @@ class JokeService(
     private val geminiClient: GeminiClient
 ) {
 
-    fun generateJoke(): String {
-        return geminiClient.getJoke()
+    fun generateJoke(word: String): String {
+        return geminiClient.getJoke(word)
     }
 }
