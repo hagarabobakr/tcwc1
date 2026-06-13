@@ -28,7 +28,7 @@ class GroqJokeProvider(
         val request = GroqChatRequest(
             model = model,
             messages = listOf(GroqMessage(role = "user", content = JokePromptBuilder.build(word))),
-            temperature = 0.9
+            temperature = 1.0
         )
 
         val headers = HttpHeaders().apply {
