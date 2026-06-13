@@ -1,11 +1,11 @@
-package com.hager.tcwc1
+package com.hager.joke
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Tcwc1Application
+class HagerJokeApplication
 
 fun main(args: Array<String>) {
-	runApplication<Tcwc1Application>(*args)
+	runApplication<HagerJokeApplication>(*args)
 }

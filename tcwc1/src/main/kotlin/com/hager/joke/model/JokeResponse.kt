@@ -1,4 +1,4 @@
-package com.hager.tcwc1
+package com.hager.joke.model
 
 data class JokeResponse(
     val joke: String

@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8080}
+
+llm:
+  provider: ${LLM_PROVIDER:groq}
+
+gemini:
+  api-key: ${GEMINI_API_KEY:}
+  model: ${GEMINI_MODEL:gemini-2.0-flash-lite}
+
+groq:
+  api-key: ${GROQ_API_KEY:}
+  model: ${GROQ_MODEL:meta-llama/llama-4-scout-17b-16e-instruct}

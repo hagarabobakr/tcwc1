@@ -1,4 +1,4 @@
-package com.hager.tcwc1
+package com.hager.joke
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
